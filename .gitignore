@@ -1,0 +1,28 @@
+# CodeIgniter specific files and directories to ignore
+
+/application/config/config.php
+/application/config/database.php
+/application/cache/
+/application/logs/
+/system/database/
+/system/language/
+/system/logs/
+/system/cache/
+/system/core/
+/system/libraries/
+/system/helpers/
+/system/language/
+/system/libraries/
+/system/third_party/
+
+# IDE specific files and directories to ignore
+
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous files and directories to ignore
+
+Thumbs.db
+.DS_Store

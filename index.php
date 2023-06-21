@@ -57,7 +57,8 @@
     ini_set('max_execution_time', 3000); // 0 = Unlimited
 	
 	define('ENVIRONMENT', 'production');
-
+	error_reporting(E_ALL);
+	ini_set('display_errors', '1');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
